@@ -1,24 +1,31 @@
 {
-  "name": "taromatic",
+  "name": "Taromatic",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "dependencies": {
-    "express": "^4.17.1"
+  "description": "A Node.js app using Express 4",
+  "engines": {
+    "node": "14.x"
   },
-  "devDependencies": {},
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js",
-    "test": "node test.js"    
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "got": "^11.3.0",
+    "tape": "^4.7.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/paulmilner/taromatic.git"
+    "url": "https://github.com/heroku/node-js-getting-started"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/paulmilner/taromatic/issues"
-  },
-  "homepage": "https://github.com/paulmilner/taromatic#readme"
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
 }
